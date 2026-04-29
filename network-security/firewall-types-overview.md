@@ -5,6 +5,13 @@ To understand different types of firewalls and how they help protect networks an
 
 ## What I Learned
 
+## What is a Firewall?
+A firewall is a network security system that monitors and 
+controls incoming and outgoing network traffic based on 
+predefined security rules. It acts as a barrier between a 
+trusted internal network and untrusted external networks 
+such as the internet.
+
 1. Software Firewalls
 Software firewalls are installed on individual devices and help monitor and control incoming and outgoing traffic on that specific system.
 
