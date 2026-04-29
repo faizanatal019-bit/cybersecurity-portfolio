@@ -10,4 +10,5 @@ Topics included:
 - Security Concepts
 - Beginner Security Labs
 
+## Currently Learning
 I am also completing the Google Cybersecurity Professional Certificate and continuously building hands on skills in cybersecurity and penetration testing.
