@@ -1,1 +1,68 @@
+# VPN and Proxy Servers
 
+## Objective
+To understand what a VPN and a proxy server are and how 
+they help in securing internal networks.
+
+## What is a VPN?
+A VPN stands for Virtual Private Network. It is a network 
+security service that changes our public IP address and 
+hides our virtual location on the internet.
+
+## How a VPN Works
+A VPN works by creating an encrypted tunnel between our 
+device and a VPN server. All our internet traffic passes 
+through this tunnel, hiding our data from anyone trying 
+to intercept it, including our internet service provider.
+
+## Types of VPNs
+- **Remote Access VPN** — used by individuals to establish 
+a connection between a personal device and a VPN server
+- **Site-to-Site VPN** — used by enterprises to extend 
+their network to other locations
+
+## VPN Protocols
+- **WireGuard** — a modern, fast VPN protocol
+- **IPSec** — encrypts traffic over a secure network tunnel
+
+## What is a Proxy Server?
+A proxy server is a server that fulfils requests by 
+forwarding them to other servers. It acts as a middleman 
+between a user and the internet.
+
+## How a Proxy Server Works
+When you send a request, it goes to the proxy server first. 
+The proxy then forwards it to the destination server on 
+your behalf, hiding your real IP address in the process.
+
+## Types of Proxy Servers
+- **Forward Proxy** — restricts a person's access to 
+the internet
+- **Reverse Proxy** — restricts the internet's access 
+to an internal server
+- **Email Proxy** — filters spam emails by checking 
+the sender's address
+
+## VPN vs Proxy — Key Differences
+| | VPN | Proxy |
+|---|---|---|
+| Encrypts traffic | Yes | No |
+| Hides IP address | Yes | Yes |
+| Covers all traffic | Yes | Usually one app only |
+| Best for | Privacy and security | Controlling access |
+
+## Why They Matter for Cybersecurity
+VPNs and proxy servers are important security tools because 
+they encrypt data and packets, hide user identities, and 
+safeguard internal servers from outside access.
+
+## Key Takeaways
+- VPNs provide strong privacy and encryption for all traffic
+- Proxy servers control and filter network requests
+- Both tools help protect internal networks but in 
+different ways
+
+## Skills Developed
+- Network Security
+- Understanding of Encryption
+- Security Concepts
