@@ -10,5 +10,4 @@ Learn basic Linux command-line navigation and file handling using a live Linux t
 Practiced core commands including `pwd`, `ls`, `cd`, `cat`, `find`, `wc`, and `grep` (including recursive search with `grep -R`) to navigate the filesystem, view file contents, and search for text within files. Also used shell operators `&`, `&&`, `>`, and `>>` to run background processes, chain commands, and redirect output to files.
 
 ## Key learning
-Got comfortable navigating a Linux system entirely through the command line and understood how output redirection (`>` vs `>>`) and command chaining (`&&`) work in practice — foundational skills for any SOC or IT support role that involves working on Linux servers.
-
+Got comfortable navigating a Linux system entirely through the command line and understood how output redirection (`>` vs `>>`) and command chaining (`&&`).
