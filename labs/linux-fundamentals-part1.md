@@ -11,3 +11,6 @@ Practiced core commands including `pwd`, `ls`, `cd`, `cat`, `find`, `wc`, and `g
 
 ## Key learning
 Got comfortable navigating a Linux system entirely through the command line and understood how output redirection (`>` vs `>>`) and command chaining (`&&`).
+
+![screenshot](screenshot1-linux-fundamentals1.png)
+![screenshot](screenshot2-linux-fundamentals1.png)
