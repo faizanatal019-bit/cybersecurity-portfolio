@@ -9,6 +9,10 @@ Topics included:
 - Incident Response
 - Security Concepts
 - Beginner Security Labs
+  
+- ## Labs
+- [Linux Fundamentals Part 1](labs/linux-fundamentals-part1.md)
+- [Network Scanning with Nmap](labs/nmap-scan.md)
 
 ## Currently Learning
 I am also completing the Google Cybersecurity Professional Certificate and continuously building hands on skills in cybersecurity and penetration testing.
