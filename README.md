@@ -13,6 +13,7 @@ Topics included:
 - ## Labs
 - [Linux Fundamentals Part 1](labs/linux-fundamentals-part1.md)
 - [Network Scanning with Nmap](labs/nmap-scan.md)
+- - [Incident Analysis — SYN Flood Attack](labs/syn-flood-incident-analysis.md)
 
 ## Currently Learning
 I am also completing the Google Cybersecurity Professional Certificate and continuously building hands on skills in cybersecurity and penetration testing.
