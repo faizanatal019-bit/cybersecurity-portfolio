@@ -19,7 +19,10 @@ One source, 203.0.113.0, behaved differently: it repeatedly sent SYN packets to
 port 443 from the same source port (54770), received the server's SYN-ACK, but 
 never sent the final ACK to complete the handshake. Instead, it immediately sent 
 another SYN. This repeated for hundreds of packets over roughly 50 seconds, 
-never once completing a handshake or sending an HTTP request.
+never once completing a handshake or sending an HTTP request. The server can be 
+seen periodically responding with RST, ACK (connection reset) packets in an 
+attempt to reject the stalled connections, but the attacker simply issued new 
+SYN packets immediately after each reset, keeping the flood going.
 
 The impact was visible directly in the logs: a legitimate user (198.51.100.5) 
 received a 504 Gateway Timeout instead of a normal response, confirming the 
@@ -42,3 +45,9 @@ capacity to accept new, legitimate connections.
 - Flagged that IP blocking alone is a short-term fix, since attackers can spoof 
   source IPs to bypass a single block, and escalated to recommend longer-term 
   mitigations (e.g. SYN cookies, rate limiting, DDoS
+
+## Evidence
+Excerpt from the Wireshark TCP log showing the repeated SYN pattern from 
+203.0.113.0 and the server's RST, ACK responses:
+
+![screenshot](screenshot-syn-flood-log.png)
