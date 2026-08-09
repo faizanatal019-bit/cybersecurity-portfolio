@@ -1,7 +1,7 @@
 # Lab: Incident Analysis — SYN Flood Attack (DoS)
 
 **Platform:** Google Cybersecurity Professional Certificate (case study)
-**Date:** July 2026
+**Date:** August 2026
 
 ## Scenario
 A travel agency's web server became unreachable, returning connection timeout 
