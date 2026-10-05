@@ -131,4 +131,4 @@ Troubleshot an SSH timeout by checking `show ip ssh`, confirming VTY `transport 
 - Systematic troubleshooting: interface status checks, staged pings, duplicate IP resolution, SSH/VTY misconfiguration isolation
 
 ## Screenshots
-- labs/IMG_1205.JPG
+- ![Lab 2 ping and interface verification](IMG_1205.JPG)
