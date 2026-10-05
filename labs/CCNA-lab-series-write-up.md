@@ -132,5 +132,5 @@ Troubleshot an SSH timeout by checking `show ip ssh`, confirming VTY `transport 
 
 ## Screenshots
 - ![Lab 2 ping and interface verification](IMG_1205.JPG)
-- ![lab3labs](/IMG_1277.JPG)
+- ![lab3labs](IMG_1277.JPG)
 
