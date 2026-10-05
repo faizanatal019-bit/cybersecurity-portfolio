@@ -131,6 +131,6 @@ Troubleshot an SSH timeout by checking `show ip ssh`, confirming VTY `transport 
 - Systematic troubleshooting: interface status checks, staged pings, duplicate IP resolution, SSH/VTY misconfiguration isolation
 
 ## Screenshots
-!IMG_1205.JPG
+IMG_1205.JPG
 IMG_1277.JPG
 IMG_1288.JPG
